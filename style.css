@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #19ac4f;
+}
+
+header {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    transition: color 0.3s ease, transform 0.3s ease;;
+}
+
+h1:hover {
+    color: #383838;
+    transform: scale(1.02);
+}
+
+h2 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.items {
+    color: black;
+    background-color: #0e381e;
+    padding: 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+a {
+    color: #111111;
+}
+
+.items:hover {
+    background-color: #0e381e;
+    transform: scale(1.1);
+}
+
+.jacquarda-bastarda-9-regular {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
