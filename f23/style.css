@@ -9,15 +9,15 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
     flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
     height: 100vh;
 }
 
 img {
     border-radius: 50%;
     border: 5px solid #1f1e1e;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
